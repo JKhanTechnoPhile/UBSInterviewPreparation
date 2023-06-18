@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
                 inputStream = FileInputStream(file)
             ).decodeToString()
             editText.setText(messageToEncrypt)
-            Log.d("MainActivity", messageToEncrypt)
+            Log.d("MainActivity", "Decrypted message from crypto manager: $messageToEncrypt")
         }
     }
 }
