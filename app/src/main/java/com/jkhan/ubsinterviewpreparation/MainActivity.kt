@@ -10,7 +10,6 @@ import java.io.FileInputStream
 import java.io.FileOutputStream
 
 class MainActivity : AppCompatActivity() {
-
     private lateinit var editText: AppCompatEditText
     private lateinit var cryptoManager: CryptoManager
     private lateinit var messageToDecrypt: ByteArray
