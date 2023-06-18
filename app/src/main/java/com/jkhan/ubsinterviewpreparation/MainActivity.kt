@@ -2,6 +2,7 @@ package com.jkhan.ubsinterviewpreparation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.widget.AppCompatButton
 import androidx.appcompat.widget.AppCompatEditText
 import com.jkhan.ubsinterviewpreparation.security.CryptoManager
@@ -45,6 +46,7 @@ class MainActivity : AppCompatActivity() {
                 inputStream = FileInputStream(file)
             ).decodeToString()
             editText.setText(messageToEncrypt)
+            Log.d("MainActivity", messageToEncrypt)
         }
     }
 }
