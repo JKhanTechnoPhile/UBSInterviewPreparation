@@ -2,6 +2,7 @@ package com.jk
 
 //https://www.youtube.com/watch?v=kLJRZpRhX1o&t=2s
 //https://www.digitalocean.com/community/tutorials/kotlin-sealed-class
+//https://www.youtube.com/watch?v=weDGgH1_wvk ( Not Watched )
 /*
 1. The subclasses of sealed classes must be declared in the same file in which sealed class itself is declared.
 2. The subclasses can be data class , regular class , object class , another sealed class or sealed interface
